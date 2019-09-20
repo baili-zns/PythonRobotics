@@ -194,8 +194,15 @@ def calc_spline_course(x, y, ds=0.1):
 def main():
     print("Spline 2D test")
     import matplotlib.pyplot as plt
+<<<<<<< HEAD
     x = [-2.5, 0.0, 2.5, 5.0, 7.5, 3.0, -1.0]
     y = [0.7, -6, 5, 6.5, 0.0, 5.0, -2.0]
+=======
+    x = [-2.5, 0.0, 2.5]
+    y = [0.7, -6, 5]
+    # x = [-2.5, 0.0, 2.5, 5.0, 7.5, 3.0, -1.0]
+    # y = [0.7, -6, 5, 6.5, 0.0, 5.0, -2.0]
+>>>>>>> 05922842b494823baa328a86fd92b6e4653dddbd
     ds = 0.1  # [m] distance of each intepolated points
 
     sp = Spline2D(x, y)
